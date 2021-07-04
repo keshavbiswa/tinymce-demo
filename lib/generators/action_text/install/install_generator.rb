@@ -59,7 +59,7 @@ module ActionText
       hook_for :test_framework
 
       private
-        GEM_ROOT = "#{__dir__}/../../../.."
+        GEM_ROOT = "#{__dir__}/../../.."
 
         def js_dependencies
           js_package = JSON.load(Pathname.new("#{GEM_ROOT}/package.json"))
